@@ -1,0 +1,42 @@
+.let {
+    color: black;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 55px;
+    text-align: center; 
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    background: #a4a2a2;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.responsive-iframe{
+  align-content: center;
+  position: relative;
+  padding-top: 56.25;
+}
+
+  .zoom-in-out-box {
+    animation: zoom-in-zoom-out 1s 3;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
